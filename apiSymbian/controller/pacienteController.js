@@ -140,6 +140,6 @@ router.delete('/excluirPacientes/:id_paciente', (req, res)=>{
 
 });
 
-pacienteModel.sync({force:true});
+// pacienteModel.sync({force:true});
 
 module.exports = router;
